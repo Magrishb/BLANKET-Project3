@@ -4,8 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
-// import List, { ListFile, ListItem } from "../components/List";
-
+import List, { ListFile, ListItem } from "../components/List";
 
 function Documents() {
   // Setting our component's initial state
@@ -60,8 +59,7 @@ function Documents() {
             <h3>Personal</h3>
             <button type="button" class="btn btn-primary">Click here to add documents</button>
           </Jumbotron>
-          {/* {documents.length ? (
-
+          {documents.length ? (
             <List>
               {documents.map(documents => (
                 <ListItem key={documents._id}>
@@ -76,16 +74,14 @@ function Documents() {
             </List>
           ) : (
               <h3 >No Documents to Display</h3>
-            )} */}
-
+            )}
         </Col>
         <Col size="md-6 sm-12">
           <Jumbotron>
             <h3>Legal</h3>
             <button type="button" class="btn btn-primary">Click here to add documents</button>
           </Jumbotron>
-          {/* {documents.length ? (
-
+          {documents.length ? (
             <List>
               {documents.map(documents => (
                 <ListItem key={documents._id}>
@@ -100,8 +96,7 @@ function Documents() {
             </List>
           ) : (
               <h3 >No Documents to Display</h3>
-            )} */}
-
+            )}
         </Col>
       </Row>
     </Container>
