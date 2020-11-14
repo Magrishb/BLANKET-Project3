@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 // import List, { ListFile, ListItem } from "../components/List";
 
+
 function Documents() {
   // Setting our component's initial state
   const [documents, setDocuments] = useState([])
@@ -60,6 +61,7 @@ function Documents() {
             <button type="button" class="btn btn-primary">Click here to add documents</button>
           </Jumbotron>
           {/* {documents.length ? (
+
             <List>
               {documents.map(documents => (
                 <ListItem key={documents._id}>
@@ -75,6 +77,7 @@ function Documents() {
           ) : (
               <h3 >No Documents to Display</h3>
             )} */}
+
         </Col>
         <Col size="md-6 sm-12">
           <Jumbotron>
@@ -82,6 +85,7 @@ function Documents() {
             <button type="button" class="btn btn-primary">Click here to add documents</button>
           </Jumbotron>
           {/* {documents.length ? (
+
             <List>
               {documents.map(documents => (
                 <ListItem key={documents._id}>
@@ -97,6 +101,7 @@ function Documents() {
           ) : (
               <h3 >No Documents to Display</h3>
             )} */}
+
         </Col>
       </Row>
     </Container>
